@@ -52,11 +52,11 @@ app.get('/books', async (req, res) => {
  *  post:
  *      description: Create a new book
  *      parameters:
-*        -name: title
-*        description: title of the book
-*        in: formData
-*        required: true
-*        type: String *      
+ *        -name: title
+ *        description: title of the book
+ *        in: formData
+ *        required: true
+ *        type: string *      
  *      responses:
  *          201:
  *              description: Created
